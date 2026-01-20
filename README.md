@@ -4,7 +4,7 @@ A clean, object-oriented implementation of the classic **Tic-Tac-Toe** game, des
 This project focuses on **Low-Level Design (LLD)** principles rather than UI, making it ideal for system design discussions and OOP practice.
 
 
-## 📌 Overview
+## Overview
 
 Tic-Tac-Toe is a two-player game played on a **3×3 grid** where players take turns placing their symbols (**X** or **O**).  
 The goal is to place **three identical symbols in a row**, column, or diagonal.  
@@ -18,7 +18,7 @@ This design supports:
 - Clean separation of concerns using design patterns
 
 
-## 🎯 Requirements
+## Requirements
 
 ### Functional Requirements
 - 3×3 game board
@@ -37,7 +37,7 @@ This design supports:
 - Clear console output for board state
 
 
-## 🧱 Core Entities
+## Core Entities
 
 | Entity | Responsibility |
 |------|----------------|
@@ -51,7 +51,7 @@ This design supports:
 | **TicTacToeSystem** | Orchestrates games and scoreboard |
 
 
-## 🏗️ Class Design
+## Class Design
 
 ### Enums
 Symbol      → X, O, EMPTY
